@@ -19,7 +19,7 @@ if (typeof GgMarquee === 'undefined') {
               clones: 0,
               items: this.el.querySelectorAll(':scope > * '),
               width: 0,
-			  speed: parseInt(this.config.speed)* 3/4
+							speed: parseInt(this.config.speed)* 3/4
             }
             // this.appendChild(marqueeEl);
             this.marquee.width = this.getMarqueeWidth(this.marquee.items) 
